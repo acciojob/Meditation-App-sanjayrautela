@@ -1,1 +1,47 @@
-/*  your css code here. If applicable */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vid-container {
+  margin-bottom: 20px;
+}
+
+video {
+  max-width: 100%;
+  border: 5px solid #fff;
+  border-radius: 10px;
+}
+
+.player-container {
+  text-align: center;
+}
+
+.sound-picker {
+  margin-bottom: 10px;
+}
+
+.time-select button {
+  margin: 0 5px;
+}
+
+.time-display {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.play {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
